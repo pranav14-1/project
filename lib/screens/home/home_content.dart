@@ -28,9 +28,6 @@ class _HomeContentState extends State<HomeContent> {
       _isLoading ? const _HomeShimmer() : _RealHomeContent(widget);
 }
 
-//─────────────────────────────────────────────────────────
-// REAL CONTENT  (unchanged business UI)
-//─────────────────────────────────────────────────────────
 class _RealHomeContent extends StatelessWidget {
   final HomeContent parent;
   const _RealHomeContent(this.parent);
