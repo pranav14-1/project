@@ -46,9 +46,15 @@
     <key>UIApplicationSupportsIndirectInputEvents</key>
     <true/>
     
+    <!-- 
+        REQUIRED CHANGES: These keys explain why your app needs location access.
+        The system shows these descriptions to the user in the permission dialog.
+    -->
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>This app needs your location to provide live tracking and attendance features.</string>
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app needs your location to provide live tracking and attendance features.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
     <string>This app needs your location to provide live tracking and attendance features.</string>
     
     <key>io.flutter.embedded_views_preview</key>
